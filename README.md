@@ -26,11 +26,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -49,7 +47,6 @@ To get a local copy up and running follow these simple example steps.
     pip install -r requirements.txt
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -60,8 +57,6 @@ To get a local copy up and running follow these simple example steps.
 
 Xinyi Wan - x.wan@erasmusmc.nl
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
