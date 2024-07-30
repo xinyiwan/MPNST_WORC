@@ -9,7 +9,7 @@
 # choose venv
 source /home/xwan/worc/bin/activate
 
-## Training locally
+## Training locally examples
 # train model with T1,T2 sequences
 python /home/xwan/MPNST_WORC/src/train.py T1_T2 MPNST_T1_T2[date]
 # train model with T1 with interactive segmentations
@@ -20,8 +20,8 @@ python /home/xwan/MPNST_WORC/src/train.py T2_T2fs+STIR MPNST_T2_T2fsSTIR_[date]
 python /home/xwan/MPNST_WORC/src/train.py T1_T2_T2fs+STIR MPNST_T1_T2_T2fsSTIR_[date]
 
 
-## Training on CPU server
-# bigrsub -q week -R 6G -N WORC_MPNST_T1_T2 python /home/xwan/MPNST-cpu/WORC3_MPNST.py T1_T2 MPNST_T1_T2_231010
-# bigrsub -q week -R 6G -N WORC_MPNST_T1_T2_T1fsgd+SPIRgd python /home/xwan/MPNST-cpu/WORC3_MPNST.py T1_T2_T1fsgd+SPIRgd MPNST_T1_T2_T1fsgdSPIRgd_231010
+## Training on CPU server examples
+# bigrsub -q week -R 6G -N WORC_MPNST_T1_T2 python /home/xwan/MPNST_WORC/src/train.py T1_T2 MPNST_T1_T2_[date]
+# bigrsub -q week -R 6G -N WORC_MPNST_T1_T2_T1fsgd+SPIRgd python /home/xwan/MPNST_WORC/src/train.py T1_T2_T1fsgd+SPIRgd MPNST_T1_T2_T1fsgdSPIRgd_[date]
 
 
