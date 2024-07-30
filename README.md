@@ -25,19 +25,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
-
-
-
-
+Source code for the preoperative classification of peripheral nerve sheath tumors on MRI. 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The test dataset used for this repo is from an open source dataset: WORC Database [https://xnat.bmia.nl/data/projects/worc](https://xnat.bmia.nl/data/projects/worc)
+To download the test dataset, please follow [https://github.com/MStarmans91/WORCDatabase](https://github.com/MStarmans91/WORCDatabase)  
 
 ### Installation
 
